@@ -1,0 +1,22 @@
+const student = {
+  name: 'Richard Kalehoff',
+  guardian: 'Mr. Kalehoff'
+
+};
+
+const teacher = {
+  name: 'Mrs. Wilson',
+  room: 'N231'
+}
+
+
+
+
+var note = `${teacher.name},
+please excuse ${student.name}.
+He is recovering from the flue.
+Thank you, 
+
+${student.guardian}`;
+
+console.log(note);
